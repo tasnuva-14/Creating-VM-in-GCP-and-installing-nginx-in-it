@@ -55,14 +55,21 @@ Ensure NGINX is running and set to start on boot:
 ```bash
 sudo systemctl start nginx
 sudo systemctl enable nginx
+
+![Preview of the command history](history.PNG)
+
 ```
 
 ### Step 6: Verify NGINX Installation
 1. Open the browser and enter the external IP address of my VM 
 2. The default NGINX welcome page is visible
-3. Or we can use the following command to check nginx connectivity: curl http://localhost
 
+ ![Preview of the nginx server](nginx.PNG)
 
+ 
+4. Or we can use the following command to check nginx connectivity: curl http://localhost
+
+![Preview of the curl command](curl.PNG)
 ---
 
 
